@@ -18,7 +18,7 @@ const NetworkItem: FC<TNetwork> = (props) => {
         // Да простят меня боги кода
         if ( index === 0 )
             setActiveNetwork();
-    }, [setActiveNetwork]);
+    }, []);
 
     return (
         <li className="network" onClick={setActiveNetwork}>

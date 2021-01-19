@@ -17,7 +17,7 @@ const NetworkList: FC<TNetworkListProps> = (props) => {
 
     useEffect(() => {
         dispatch(FetchNetworkList);
-    }, [dispatch]);
+    }, []);
 
     return (
         <ul className="network-list">

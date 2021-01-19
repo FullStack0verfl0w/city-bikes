@@ -14,7 +14,7 @@ const StationItem: FC<TStation> = (props) => {
 
     return (
         <li className="station">
-            {name}
+            <p>{name}</p>
         </li>
     );
 };
