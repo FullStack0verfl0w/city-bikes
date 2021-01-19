@@ -1,0 +1,33 @@
+.network {
+    width: 320px;
+    padding: 1em 2em 1em 2em;
+    margin: 0 0 2em 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 4px 20px #0003;
+
+    cursor: pointer;
+    pointer-events: bounding-box;
+}
+.network-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.network-info__name {
+    color: #3e3e3e;
+}
+.network-info__location {
+    color: #6e6e6e;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.network-favorite {
+    display: flex;
+}

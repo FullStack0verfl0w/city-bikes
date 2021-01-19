@@ -1,8 +1,8 @@
 import React, { FC } from "react";
-import "index.css";
+import "./index.css";
 
 type TActivityIndicatorProps = {
-    text: string,
+    text?: string,
 };
 
 const ActivityIndicator: FC<TActivityIndicatorProps> = (props) => {

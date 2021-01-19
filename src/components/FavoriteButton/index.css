@@ -1,0 +1,19 @@
+.favorite-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    transition: .1s ease-in all;
+}
+
+.favorite-button:active {
+    transform: scale(1.4);
+}
+
+.favorite-button img {
+    width: 32px;
+    height: 32px;
+}

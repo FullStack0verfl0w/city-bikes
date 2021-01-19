@@ -4,6 +4,9 @@ export type TNetwork = {
     id: string,
     location: TLocation,
     name: string,
+    stations?: TStation[],
+    favorite: boolean,
+    index?: number,
 };
 
 export type TLocation = {
@@ -34,3 +37,9 @@ export type TStationInfo = {
     slots: number,
     uid: string,
 };
+
+export enum ELoadingStatus {
+    None,
+    Loading,
+    Error,
+}
